@@ -1,0 +1,6 @@
+---
+- name: "install serveurs web salaires"
+  hosts: all
+  roles:
+    - Apache
+    - mariadb
